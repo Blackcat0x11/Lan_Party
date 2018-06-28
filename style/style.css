@@ -1,0 +1,29 @@
+
+h1{
+  text-decoration: none;
+  text-shadow: 10px 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: gamera;
+  font-size: 300%
+}
+body{
+  background-color: none;
+  background-repeat:repeat-x;
+  background-attachment: fixed;
+  background-position: 0% 33%;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+div{
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  background: black;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  display: block;
+}
