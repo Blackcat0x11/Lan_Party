@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "gamera";
+    font-style: normal;
+    font-weight: normal;
+    src: local("/fonts/GAMERA_.TTF");
+}
+
 *{
   margin: 0px;
   padding: 0px;
@@ -8,8 +15,9 @@ body{
   color: black;
 }
 
-.contenido{
-  padding-top: 100px;
+.content{
+  width: 100%;
+  padding-top:65px;
 }
 
 header{
@@ -22,7 +30,7 @@ header{
 
 .logo{
   padding-top: 7px;
-  padding-left: 814px;
+  padding-left: 63%;
   padding-bottom: 0px;
 }
 
@@ -39,7 +47,7 @@ nav ul {
 
 nav ul li {
   float: left;
-  font-family: /fonts/gamera;
+  font-family: "gamera";
   font-size: 16px;
 }
 
