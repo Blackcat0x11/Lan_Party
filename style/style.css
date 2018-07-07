@@ -15,9 +15,38 @@ body{
   color: black;
 }
 
-.content{
+.placard{
   width: 100%;
   padding-top:65px;
+}
+
+.logo{
+  width: 75px;
+  height: 53px;
+  padding-top: 7px;
+  padding-left: 71%;
+  padding-bottom: 0px;
+  position: fixed;
+}
+
+.info{
+
+}
+
+.timetable{
+
+}
+
+.sponsors{
+
+}
+
+.social{
+
+}
+
+.icon{
+
 }
 
 header{
@@ -26,12 +55,6 @@ header{
   z-index: 100%;
   padding-bottom: 2px;
   background-color: silver;
-}
-
-.logo{
-  padding-top: 7px;
-  padding-left: 63%;
-  padding-bottom: 0px;
 }
 
 nav {
