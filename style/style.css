@@ -1,31 +1,12 @@
-@font-face {
-    font-family: "gamera";
-    font-style: normal;
-    font-weight: normal;
-    src: local("/fonts/GAMERA_.TTF");
-}
-
 *{
   margin: 0px;
   padding: 0px;
-  font-family: gamera;
+  font-family: Comic Sans MS;
 }
 
 body{
   background-color: white;
   color: black;
-}
-
-.separator{
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 5px;
-  background-color: silver;
-}
-
-.placard{
-  width: 100%;
-  padding-top:65px;
 }
 
 .logo{
@@ -37,12 +18,80 @@ body{
   position: fixed;
 }
 
+.placard{
+  width: 100%;
+  padding-top:65px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+div{
+  width: 100%;
+}
+
+div ul li  {
+  display: block;
+  padding-left: 30px;
+  color: black;
+  text-decoration: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+div p{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
 .info{
+  width: 500px;
+  margin-top: 15px;
   padding-left: 10%;
+  padding-bottom: 15px;
+  font-size: 120%;
+  float: left;
+}
+
+.imgray{
+  padding-top: 30px;
+  padding-left: 100px;
+  display: block;
+
 }
 
 .timetable{
-  padding-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #8e0b8a;
+}
+
+.day{
+  margin-left: 60px;
+  margin-bottom: 15px;
+  background-color: #ce2bc9;
+  width: 262px;
+  height: 380px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+
+div div h1{
+  margin-top: 5px;
+}
+
+.separatorDay{
+  margin-left: 40px;
+  padding-top: 5px;
+  width: 182px;
+  background-color: #a521a1;
+  border-radius: 100px;
+}
+
+.iconDay{
+  width: 100px;
+  height: 100px;
 }
 
 .sponsors{
@@ -54,6 +103,8 @@ body{
 }
 
 .icon{
+  width: 50px;
+  height: 50px;
 
 }
 
@@ -78,7 +129,6 @@ nav ul {
 
 nav ul li {
   float: left;
-  font-family: "gamera";
   font-size: 16px;
 }
 
