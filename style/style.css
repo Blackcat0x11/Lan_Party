@@ -1,4 +1,3 @@
-font-family: 'Open Sans', sans-serif;
 
 *{
   margin: 0px;
@@ -6,23 +5,25 @@ font-family: 'Open Sans', sans-serif;
   font-family: "Open Sans";
 }
 
+font-family: 'Open Sans', sans-serif;
+
 body{
   background-color: white;
   color: black;
 }
 
 .logo{
-  width: 75px;
-  height: 53px;
+  width: 100px;
+  height: 75px;
   padding-top: 7px;
-  padding-left: 71%;
   padding-bottom: 0px;
-  position: fixed;
+  margin-right: 5px;
+  float: right;
 }
 
 .placard{
   width: 100%;
-  padding-top:65px;
+  padding-top:90px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -151,6 +152,7 @@ nav {
 }
 
 nav ul {
+  width: 100%;
   list-style: none;
   overflow: hidden;
 }
@@ -161,12 +163,9 @@ nav ul li {
 }
 
 nav ul li a {
-  display: block;
+  display: inline-block;
+  margin-top: 20px;
   padding: 20px;
   color: black;
   text-decoration: none;
-}
-
-nav ul li:hover {
-  background: #60f;
 }
