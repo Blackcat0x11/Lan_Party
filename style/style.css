@@ -1,8 +1,10 @@
 *{
   margin: 0px;
   padding: 0px;
-  font-family: Comic Sans MS;
+  font-family: "Open Sans";
 }
+
+font-family: 'Open Sans', sans-serif;
 
 body{
   background-color: white;
@@ -44,7 +46,7 @@ div p{
 
 .info{
   width: 500px;
-  margin-top: 15px;
+  margin-top: 30px;
   padding-left: 10%;
   padding-bottom: 15px;
   font-size: 120%;
@@ -89,16 +91,42 @@ div div h1{
   border-radius: 100px;
 }
 
-.iconDay{
+.iconDay1{
   width: 100px;
   height: 100px;
+  margin-top: 110px;
+}
+
+.iconDay2{
+  width: 100px;
+  height: 100px;
+  margin-top: 59px;
+}
+
+.iconDay3{
+  width: 100px;
+  height: 100px;
+  margin-top: 1px;
+}
+
+.iconDay4{
+  width: 100px;
+  height: 100px;
+  margin-top: 59px;
 }
 
 .sponsors{
+  margin-top: 50px;
+}
 
+.sponsorsicon{
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .social{
+  margin-top: 100px;
+  margin-bottom: 100px;
 
 }
 
@@ -112,7 +140,7 @@ header{
   width: 100%;
   position: fixed;
   z-index: 100%;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
   background-color: silver;
 }
 
@@ -129,7 +157,7 @@ nav ul {
 
 nav ul li {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 nav ul li a {
