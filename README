@@ -1,0 +1,21 @@
+Main:
+  -header-nav
+  -placard
+  ·info
+  !timetable
+  ·sponsors
+  ·misc
+
+Info:
+  ·cosas varias
+  !timetable
+
+Inscripción:
+  -formulario
+  ·js
+  ·ordenar & css
+
+Organización:
+  ·miembros
+  ·cosas varias
+  ·localización js
