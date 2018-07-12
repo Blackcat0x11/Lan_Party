@@ -12,6 +12,48 @@ body{
   color: black;
 }
 
+
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 100%;
+  padding-bottom: 4px;
+  background-color: #5e6268;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  border-radius: 30px;
+  background-color: #5e6268;
+  color: white;
+
+}
+
 .logo{
   width: 100px;
   height: 75px;
@@ -21,9 +63,17 @@ body{
   float: right;
 }
 
+.content {
+  width: 1200px;
+  padding-top: 120px;
+  margin-left: 75px;
+  margin-right: 75px;
+  overflow: hidden;
+}
+
 .placard{
   width: 100%;
-  padding-top:90px;
+  padding-top:80px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -118,6 +168,7 @@ div div h1{
 
 .sponsors{
   margin-top: 50px;
+  margin-bottom: 75px;
 }
 
 .sponsorsicon{
@@ -125,47 +176,50 @@ div div h1{
   margin-top: 50px;
 }
 
-.social{
-  margin-top: 100px;
-  margin-bottom: 100px;
+footer{
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
 
+.legal{
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-right: 10%;
+  float:left;
+  width:200px;
+  height: 200px;
+  text-decoration: none;
+  color: white;
+}
+
+footer div ul li{
+  color: white;
+}
+.fg{
+  margin-top: 25px;
+
+}
+
+.social{
+  float: right;
+  margin-left: 0px;
+  margin-right: 25px;
+  width:350px;
+  height: 200px;
 }
 
 .icon{
+  margin-left: 50px;
+  margin-top:60px;
   width: 50px;
   height: 50px;
-
-}
-
-header{
-  width: 100%;
-  position: fixed;
-  z-index: 100%;
-  padding-bottom: 4px;
-  background-color: silver;
-}
-
-nav {
-  width: 100%;
-  background-color: white;
-  float: left;
-}
-
-nav ul {
-  width: 100%;
-  list-style: none;
-  overflow: hidden;
-}
-
-nav ul li {
-  float: left;
-  font-size: 20px;
-}
-
-nav ul li a {
   display: inline-block;
-  margin-top: 20px;
-  padding: 20px;
-  color: black;
-  text-decoration: none;
+}
+
+.copyright{
+  color:white;
+  text-align: center;
 }

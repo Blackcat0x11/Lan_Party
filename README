@@ -1,10 +1,13 @@
 Main:
   -header-nav
   -placard
-  ·info
+  ·-info
   !timetable
-  ·sponsors
-  ·misc
+  ·-sponsors
+  ·-misc
+
+Legal:
+  -terminos leales
 
 Info:
   ·cosas varias
