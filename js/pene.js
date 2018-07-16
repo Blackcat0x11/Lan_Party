@@ -1,5 +1,12 @@
-window.addEventListener('load', hola(), false);
-var hola = function(){
-  var elemento = <video autoplay loop muted playsinline src="video/video_banner.webm"></video>;
-  document.header.appendChild(elemento);
+
+var i=0;
+function aumentar(i){
+  i++;
+  if i>2{
+    i=0;
+  };
+  return i;
+}
+function cambiar () {
+ document.getElementById('infoImg').src = "images/chino_rules.jpg";
 }

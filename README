@@ -1,7 +1,7 @@
 Main:
   -header-nav
   -placard
-  ·-info
+  ·-info //js
   !timetable
   ·-sponsors
   ·-misc
@@ -16,9 +16,9 @@ Info:
 Inscripción:
   -formulario
   ·js
-  ·ordenar & css
+  ·ordenar // css
 
 Organización:
   ·miembros
   ·cosas varias
-  ·localización js
+  ·localización // js
